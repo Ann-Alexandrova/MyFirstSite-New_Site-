@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru" <!--dir="ltr"-->>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--<base href="https://assets.htmlacademy.ru/content/skills/1/case-01/">-->
+   <link href="styleNS.css" rel="stylesheet" type="text/css">
+   <title>Новостной сайт</title>
+</head>
+<body>
+   <header class="main-header">
+      <nav class="main_header_nav">
+         <a>
+            <h1>Путешествия</h1>
+         </a>
+         <ul class="site-navigation">
+            <li class="site-navigation-item">Новости</li>
+            <li class="site-navigation-item">Обзоры</li>
+            <li class="site-navigation-item">Музыка</li>
+            <li class="site-navigation-item">Архитектура</li>
+            <li class="site-navigation-item">Кино</li>
+            <li class="site-navigation-item">Театр</li>
+            <li class="site-navigation-item">Литература</li>
+            <li class="site-navigation-item">Религия</li>
+            <li class="site-navigation-item">Живопись</li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <!--   <h1 class="visually-hidden">Путешествия </h1>-->
+      <section class="main-headline">
+         <!--  <a href="Картинка основная">
+            <img src="https://avatars.mds.yandex.net/get-zen_doc/1587994/pub_5d17c31371bb3900ae0552b9_5d17c81e8dd02200ad24b3a3/scale_1200"
+              width="1440" height="740" alt="Подводный ресторан на Мальдивах">
+            </a>-->
+         <div>
+            <h2>
+            ПОДВОДНЫЙ РЕСТОРАН
+            <h2>
+            <p>Conrad Maldives Rangali – Мальдивы <br>
+               Отель Conrad Maldives на острове Рангали расположен над водой, но имеет подводный ресторан.
+               <br>Он находится на глубине 5 метров ниже уровня моря и рассчитан на 12 человек.
+            </p>
+         </div>
+      </section>
+      <section class="atricles">
+         <!-- где три статьи-->
+         <h2>Статьи</h2>
+         <ul>
+            <li class="reviews-item">
+               <article>
+                  <img src="https://wallbox.ru/wallpapers/main2/201727/1499619747596261a378ad08.92727173.jpg" width="371" height="203" alt="Про Швецию">
+                  <h3><a class="reviews-link" href="#">30+ фактов о жизни в Швеции, узнав которые так и хочется сказать: «Да вы шутите?»</a></h3>
+                  <p>Швеция подарила миру безопасные и удобные автомобили Volvo,
+                     дешевую и стильную мебель IKEA, отличные видеоигры Minecraft и Battlefield и множество
+                     других вещей. По данным рейтинга HSBC,
+                     страна занимает 20-е место по привлекательности для экспатов со всего мира.
+                  </p>
+               </article>
+            </li>
+            <li class="reviews-item">
+               <article>
+                  <img src="https://avatars.mds.yandex.net/get-zen_doc/142473/pub_5cc17de9589ccd00b228533a_5cc17f8c15df6000b3c1e0c7/scale_1200" width="371" height="203" alt="Греча">
+                  <h3><a class="reviews-link" href="#">15 обожаемых нами вещей, которые никогда не купят иностранцы</a></h3>
+                  <p>Если вы решите притвориться иностранцем и отточите актерские навыки до блеска,
+                     всегда найдется что-то, что выдаст вас с головой.
+                     И в первую очередь это касается национального менталитета.
+                  </p>
+               </article>
+            </li>
+            <li class="reviews-item">
+               <article>
+                  <img src="https://wallpaperscave.ru/images/original/18/01-08/vehicles-trains-7091.jpg" width="371" height="203" alt="Поезд в горах">
+                  <h3><a class="reviews-link" href="#">16 человек, которые долго прожили за рубежом, рассказали о том, что потрясло их на родине</a></h3>
+                  <p>Когда мы приезжаем в незнакомую страну, то в той или иной мере испытываем культурный шок.
+                     Чем более опытными путешественниками мы становимся, тем реже нас удивляет местный колорит,
+                     однако от обратного, или «реверсивного» культурного шока опыт не спасает.
+                  </p>
+               </article>
+            </li>
+         </ul>
+      </section>
+      <section class="promo">
+         <h3>
+         <label for="email">Подпишись на рассылку</label></h4>
+         <style>
+            input[type="text"] {
+            background-color: orange;
+            color:white;
+            text-align: center;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 2px;
+            border-radius: 5%;
+            border-color: white;
+            border-width: thin;
+            }
+         </style>
+         <input type="text" id="email" name="email" value="Подписаться">
+         <ul class="mail list">
+            <li class="promo-item">
+               <h3>Скидки у партнеров</h3>
+               <p>Выгодные предложения и акции на билеты и туры</p>
+            </li>
+            <li class="promo-item">
+               <h3>Места для путешествий</h3>
+               <p>Еженедельные подборки интересных мест <br>для путешествий на разный бюджет</p>
+            </li>
+            <li class="promo-item">
+               <h3>Идеи для фотосессий</h3>
+               <p>Примеры фотосессий и контакты местных <br>фотографов в разных странах</p>
+            </li>
+            <li class="promo-item">
+               <h3>Путеводители</h3>
+               <p>Путеводители по городам истранам, подборки <br>интересных и необычных достопримечательностей</p>
+            </li>
+         </ul>
+         <!-- скидки и прочая лабуда внизу-->
+      </section>
+   </main>
+   <footer class="main-footer">
+      <h1>Путешествия</h1>
+      <ul class="site-navigation">
+         <li class="site-navigation-item">Новости</li>
+         <li class="site-navigation-item">Обзоры</li>
+         <li class="site-navigation-item">Музыка</li>
+         <li class="site-navigation-item">Архитектура</li>
+         <li class="site-navigation-item">Кино</li>
+         <li class="site-navigation-item">Театр</li>
+         <li class="site-navigation-item">Литература</li>
+         <li class="site-navigation-item">Религия</li>
+         <li class="site-navigation-item">Живопись</li>
+      </ul>
+      <ul class="social list">
+         <li class="social list item">
+            <a href="#"> Instagram  </a>
+         </li>
+         <li class="social list item">
+            <a href="#"> Facebook  </a>
+         </li>
+         <li class="social list item">
+            <a href="#"> Twitter </a>
+         </li>
+      </ul>
+   </footer>
+</body>
+</html>
